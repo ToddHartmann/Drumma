@@ -1,0 +1,30 @@
+// MMA text produced by drumma.py
+// W:\Drumma\drumma.py four-clip.mid -o four-drums.mma
+TEMPO 120
+TIMESIG 4/4
+TIME 4.0
+SEQSIZE 1
+BEGIN Drum-KickDrum1
+  TONE KickDrum1
+  BEGIN DEFINE
+    KickDrum1M1  1.000 192t 64;  2.000 192t 64;  3.000 192t 64;  4.000 192t 64;
+  END
+  SEQUENCE  KickDrum1M1
+END
+BEGIN Drum-SnareDrum1
+  TONE SnareDrum1
+  BEGIN DEFINE
+    SnareDrum1M1  2.000 192t 64;  4.000 192t 64;
+  END
+  SEQUENCE  SnareDrum1M1
+END
+BEGIN Drum-ClosedHiHat
+  TONE ClosedHiHat
+  BEGIN DEFINE
+    ClosedHiHatM1  1.000 96t 64;  1.500 96t 64;  2.000 96t 64;  2.500 96t 64;  3.000 96t 64;  3.500 96t 64;  4.000 96t 64;  4.500 96t 64;
+  END
+  SEQUENCE  ClosedHiHatM1
+END
+REPEAT
+    E
+REPEATEND NOWARN 1

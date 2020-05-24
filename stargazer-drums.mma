@@ -1,0 +1,75 @@
+// MMA text produced by drumma.py
+// W:\drumma\drumma.py stargazer-clip.mid -o stargazer-drums.mma
+TEMPO 180
+TIMESIG 4/4
+TIME 4.0
+SEQSIZE 9
+BEGIN Drum-KickDrum1
+  TONE KickDrum1
+  BEGIN DEFINE
+    KickDrum1M1  1.125 96t 127;  3.125 96t 127;
+    KickDrum1M2  2.625 96t 127;
+    KickDrum1M3  1.875 48t 127;  2.875 48t 127;  3.875 48t 127;  4.875 48t 127;
+    KickDrum1M7  1.625 96t 127;  2.625 96t 127;  3.625 96t 127;  4.625 96t 127;
+    KickDrum1M8  1.625 96t 127;  2.625 96t 127;  3.625 96t 127;
+    KickDrum1M9  1.125 192t 127;  2.125 96t 127;  2.625 96t 127;
+  END
+  SEQUENCE  KickDrum1M1 KickDrum1M2 KickDrum1M3 KickDrum1M3 KickDrum1M3 KickDrum1M3 KickDrum1M7 KickDrum1M8 KickDrum1M9
+END
+BEGIN Drum-SnareDrum1
+  TONE SnareDrum1
+  BEGIN DEFINE
+    SnareDrum1M1  1.125 96t 127;  1.625 48t 127;  1.875 48t 127;  2.625 96t 127;  3.625 96t 127;  4.625 96t 127;
+    SnareDrum1M2  1.625 96t 127;  3.125 24t 127;  3.250 144t 127;
+    SnareDrum1M3  1.125 48t 127;  1.375 48t 127;  2.125 48t 127;  3.125 48t 127;  4.125 192t 127;
+    SnareDrum1M7  1.125 96t 127;  2.125 96t 127;  3.125 96t 127;  4.125 192t 127;
+    SnareDrum1M8  1.125 96t 127;  2.125 96t 127;  3.125 96t 127;  4.125 96t 127;  4.625 96t 127;
+    SnareDrum1M9  3.125 192t 127;
+  END
+  SEQUENCE  SnareDrum1M1 SnareDrum1M2 SnareDrum1M3 SnareDrum1M3 SnareDrum1M3 SnareDrum1M3 SnareDrum1M7 SnareDrum1M8 SnareDrum1M9
+END
+BEGIN Drum-LowTom1
+  TONE LowTom1
+  BEGIN DEFINE
+    LowTom1M1  2.125 96t 127;
+    LowTom1M2  1.125 96t 127;
+    LowTom1M3  2.625 48t 127;  3.625 192t 127;  4.625 96t 127;
+  END
+  SEQUENCE  LowTom1M1 LowTom1M2 LowTom1M3 LowTom1M3 LowTom1M3 LowTom1M3 z z z
+END
+BEGIN Drum-OpenHiHat
+  TONE OpenHiHat
+  BEGIN DEFINE
+    OpenHiHatM7  1.625 96t 127;  2.625 96t 127;  3.625 96t 127;  4.625 96t 127;
+    OpenHiHatM8  1.625 96t 127;  2.625 96t 127;
+  END
+  SEQUENCE  z z z z z z OpenHiHatM7 OpenHiHatM8 z
+END
+BEGIN Drum-MidTom1
+  TONE MidTom1
+  BEGIN DEFINE
+    MidTom1M1  4.125 96t 127;
+    MidTom1M2  2.125 96t 127;  4.125 24t 127;  4.250 144t 127;
+    MidTom1M3  1.625 48t 127;  2.375 48t 127;  3.375 48t 127;  4.375 144t 127;
+  END
+  SEQUENCE  MidTom1M1 MidTom1M2 MidTom1M3 MidTom1M3 MidTom1M3 MidTom1M3 z z z
+END
+BEGIN Drum-CrashCymbal1
+  TONE CrashCymbal1
+  BEGIN DEFINE
+    CrashCymbal1M7  1.625 96t 127;  2.625 96t 127;  3.625 96t 127;  4.625 96t 127;
+    CrashCymbal1M8  1.625 96t 127;  2.625 96t 127;
+    CrashCymbal1M9  1.125 192t 127;
+  END
+  SEQUENCE  z z z z z z CrashCymbal1M7 CrashCymbal1M8 CrashCymbal1M9
+END
+BEGIN Drum-RideCymbal1
+  TONE RideCymbal1
+  BEGIN DEFINE
+    RideCymbal1M9  3.125 192t 127;  4.125 0 127;
+  END
+  SEQUENCE  z z z z z z z z RideCymbal1M9
+END
+REPEAT
+    E
+REPEATEND NOWARN 9

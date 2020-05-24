@@ -1,0 +1,89 @@
+// MMA text produced by drumma.py
+// W:\Drumma\drumma.py sawyer-clip.mid -o sawyer-drums.mma
+TEMPO 88
+TIMESIG 4/4
+TIME 4.0
+SEQSIZE 6
+BEGIN Drum-KickDrum1
+  TONE KickDrum1
+  BEGIN DEFINE
+    KickDrum1M1  1.312 48t 125;  1.812 48t 121;  2.812 48t 122;  3.312 48t 124;  3.812 96t 124;  4.312 48t 124;  4.812 48t 127;
+    KickDrum1M2  1.062 48t 125;  1.562 48t 126;  4.062 48t 127;  4.812 48t 127;
+    KickDrum1M3  1.062 48t 127;  1.562 48t 127;
+    KickDrum1M4  1.062 48t 123;  1.562 48t 127;  2.812 48t 122;  3.188 24t 127;  3.562 48t 126;  4.062 48t 126;  4.312 48t 126;
+    KickDrum1M5  1.562 48t 123;  2.812 48t 123;  3.562 48t 123;  4.312 48t 123;  4.562 48t 123;
+    KickDrum1M6  1.062 48t 125;  1.562 48t 126;  2.562 48t 123;  3.562 48t 127;  4.562 48t 124;
+  END
+  SEQUENCE  KickDrum1M1 KickDrum1M2 KickDrum1M3 KickDrum1M4 KickDrum1M5 KickDrum1M6
+END
+BEGIN Drum-SnareDrum1
+  TONE SnareDrum1
+  BEGIN DEFINE
+    SnareDrum1M1  1.062 48t 125;  1.562 48t 125;  2.062 48t 123;
+    SnareDrum1M2  1.812 48t 127;
+    SnareDrum1M3  1.812 48t 127;  4.812 48t 127;
+    SnareDrum1M5  1.812 48t 127;  4.812 48t 124;
+    SnareDrum1M6  1.312 48t 126;  1.812 48t 127;  2.812 48t 126;  3.812 48t 127;  4.812 0 124;
+  END
+  SEQUENCE  SnareDrum1M1 SnareDrum1M2 SnareDrum1M3 SnareDrum1M2 SnareDrum1M5 SnareDrum1M6
+END
+BEGIN Drum-ClosedHiHat
+  TONE ClosedHiHat
+  BEGIN DEFINE
+    ClosedHiHatM1  1.062 48t 110;  1.312 48t 101;  1.562 48t 113;  1.781 48t 100;  2.062 48t 113;  2.312 42t 95;  2.562 48t 117;  2.812 42t 95;  3.062 48t 110;  3.312 48t 89;  3.562 42t 110;  3.812 96t 95;  4.562 48t 111;
+    ClosedHiHatM2  1.062 48t 95;  1.312 42t 95;  1.562 48t 100;  1.812 42t 117;  2.062 48t 97;  2.312 24t 97;  2.562 42t 97;  2.812 24t 116;  3.062 24t 95;  3.312 24t 98;  3.531 48t 95;  3.812 24t 117;  4.062 42t 94;  4.312 24t 94;  4.562 42t 95;  4.812 48t 119;
+    ClosedHiHatM3  1.062 48t 95;  1.312 42t 91;  1.562 48t 100;  1.812 48t 119;  2.062 48t 94;  2.281 48t 94;  2.562 48t 100;  2.812 48t 119;  3.312 42t 101;  3.562 48t 100;  3.812 48t 119;  4.312 48t 98;  4.562 48t 98;  4.812 48t 119;
+    ClosedHiHatM4  1.031 48t 95;  1.312 48t 95;  1.562 42t 100;  1.812 48t 117;  2.062 42t 97;  2.312 24t 97;  2.562 48t 97;  2.812 42t 116;  3.062 24t 95;  3.312 48t 98;  3.562 48t 95;  3.781 48t 117;  4.062 48t 94;  4.312 42t 94;  4.562 48t 95;  4.812 42t 119;
+    ClosedHiHatM5  1.062 48t 95;  1.312 48t 91;  1.562 42t 100;  1.812 48t 119;  2.062 48t 94;  2.312 24t 94;  2.531 48t 100;  2.812 48t 119;  3.062 42t 98;  3.312 24t 101;  3.562 42t 100;  3.812 24t 119;  4.062 24t 95;  4.312 42t 98;  4.562 48t 98;  4.812 48t 119;
+    ClosedHiHatM6  1.062 48t 95;  1.281 48t 95;  1.562 48t 100;  1.812 42t 117;  2.062 48t 97;  2.312 42t 97;  2.562 48t 97;  2.812 48t 116;  3.062 42t 95;  3.312 48t 98;  3.562 48t 95;  3.812 48t 117;  4.031 48t 94;  4.312 48t 94;  4.562 42t 95;  4.812 0 119;
+  END
+  SEQUENCE  ClosedHiHatM1 ClosedHiHatM2 ClosedHiHatM3 ClosedHiHatM4 ClosedHiHatM5 ClosedHiHatM6
+END
+BEGIN Drum-LowTom1
+  TONE LowTom1
+  BEGIN DEFINE
+    LowTom1M1  2.562 48t 116;
+    LowTom1M2  3.812 24t 117;  3.938 24t 117;  4.188 24t 116;  4.312 24t 114;  4.438 24t 116;  4.562 48t 116;
+    LowTom1M3  2.906 48t 108;  3.250 72t 108;  3.594 48t 108;  3.906 48t 108;  4.250 60t 108;  4.562 48t 127;
+  END
+  SEQUENCE  LowTom1M1 LowTom1M2 LowTom1M3 z z z
+END
+BEGIN Drum-MidTom1
+  TONE MidTom1
+  BEGIN DEFINE
+    MidTom1M2  2.938 24t 114;  3.062 24t 113;  3.188 24t 112;  3.312 24t 112;  3.562 24t 115;  3.688 24t 115;
+    MidTom1M3  2.875 48t 115;  3.188 72t 115;  3.562 48t 115;  3.875 48t 115;  4.219 60t 115;  4.531 48t 115;
+    MidTom1M4  2.562 48t 123;  4.812 48t 120;
+    MidTom1M5  1.062 48t 116;  1.312 48t 120;  2.312 24t 120;  2.562 24t 116;  2.688 24t 118;  3.188 24t 120;  3.312 24t 116;  3.438 24t 118;  3.812 24t 120;  3.938 24t 120;  4.062 24t 116;  4.188 24t 118;
+  END
+  SEQUENCE  z MidTom1M2 MidTom1M3 MidTom1M4 MidTom1M5 z
+END
+BEGIN Drum-HighTom2
+  TONE HighTom2
+  BEGIN DEFINE
+    HighTom2M1  2.062 48t 114;  2.312 48t 114;
+  END
+  SEQUENCE  HighTom2M1 z z z z z
+END
+BEGIN Drum-CrashCymbal1
+  TONE CrashCymbal1
+  BEGIN DEFINE
+    CrashCymbal1M1  2.812 48t 107;  3.312 48t 107;  3.812 96t 107;  4.312 48t 109;
+    CrashCymbal1M2  1.812 48t 110;  4.062 48t 110;  4.812 48t 113;
+    CrashCymbal1M3  1.812 48t 110;
+    CrashCymbal1M4  1.812 48t 113;  2.812 48t 111;  3.188 24t 108;  3.562 48t 111;  4.062 48t 111;  4.312 48t 106;
+    CrashCymbal1M5  1.812 48t 110;  2.812 48t 114;  3.562 48t 114;  4.312 48t 114;
+  END
+  SEQUENCE  CrashCymbal1M1 CrashCymbal1M2 CrashCymbal1M3 CrashCymbal1M4 CrashCymbal1M5 CrashCymbal1M3
+END
+BEGIN Drum-HighTom1
+  TONE HighTom1
+  BEGIN DEFINE
+    HighTom1M2  2.312 24t 115;  2.438 24t 117;  2.688 24t 120;  2.812 24t 117;  2.938 24t 114;
+    HighTom1M4  2.312 24t 126;  2.438 24t 121;
+  END
+  SEQUENCE  z HighTom1M2 z HighTom1M4 z z
+END
+REPEAT
+    E
+REPEATEND NOWARN 6
