@@ -367,7 +367,7 @@ def smart_open(filename=None):
 #
 def intrangecheck(sval, ranje, sname=None):
     """argparse check that argument is an integer within a range"""
-    if sname != None:
+    if sname is not None:
         sname = "for {0} ".format(sname)
     else:
         sname = ''
