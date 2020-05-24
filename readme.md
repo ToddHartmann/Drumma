@@ -68,7 +68,7 @@ Saves a lot of listening and typing.
 
 #### Rush, "Tom Sawyer" drum fill by Neil Peart
 
-No drum demo is complete without [Tom Sawyer](sawyer-clip.mid) ([audio](sawyer-clip.mp3)).
+No drum demo is complete without **The Fill** from [Tom Sawyer](sawyer-clip.mid) ([audio](sawyer-clip.mp3)).
 DruMMA makes [this MMA code](sawyer-drums.mma).
 That code renders to [this MIDI](sawyer-drums.mid)
 which sounds like [this](sawyer-drums.mp3)).
